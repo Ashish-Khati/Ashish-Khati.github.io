@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+    <title>Weather App</title>
+</head>
+<body>
+
+    <div class="search">
+       <div class="search-box">
+        <input type="text" name="" id="search" class="search" placeholder="Search">
+       </div>
+       
+       <div class="btn">
+        <i class="fa-solid fa-magnifying-glass search-icon" id="search-btn"></i>
+       </div>
+    </div>
+    <div class="container">
+        <div class="current-info">
+            <div class="date-container">
+                <div class="time" id="time"><span id="am-pm"></span></div>
+            
+            <div class="date" id="date"></div>
+            <div class="others" id="current-wether-items">
+                <div class="weather-items">
+                    <div>Humidity</div>
+                    <div id="humid"></div>
+                </div>
+                <div class="weather-items">
+                    <div>Pressure</div>
+                    <div id="pressure"></div>
+                </div>
+                <div class="weather-items">
+                    <div>Wind speed</div>
+                    <div id="wind-speed"></div>
+                </div>
+                <div class="weather-items">
+                    <div>Sunrise</div>
+                    <div id="sun-rise"></div>
+                </div>
+                <div class="weather-items">
+                    <div>Sunset</div>
+                    <div id="sun-set"></div>
+                </div>
+                </div>
+            </div>
+            <div class="place-container">
+                <div class="time-zone" id="time-zone"></div>
+                <div class="country" id="country"></div>
+            </div>
+        </div>
+    </div>
+    <div class="future-forcast">
+        <div class="today" id="current-temp">
+            <img src="" alt="weather icon" class="icon">
+           <div class="other">
+            <div class="day"></div>
+            <div class="temp"></div>
+            <div class="temp"></div>
+           </div>
+        </div>
+        <div class="weather-forecast" id="weather-forecast">
+            <div class="weather-forecast-item">
+                <div class="day">T</div>
+                <img src="" alt="weather icon" class="icon">
+                <div class="desc"></div>
+            <div class="temp"></div>
+            <div class="temp"></div>
+            </div>
+            <div class="weather-forecast-item">
+                <div class="day"></div>
+                <img src="" alt="weather icon" class="icon">
+            <div class="temp"></div>
+            <div class="temp"></div>
+            </div>
+            <div class="weather-forecast-item">
+                <div class="day"></div>
+                <img src="" alt="weather icon" class="icon">
+            <div class="temp"></div>
+            <div class="temp"></div>
+            </div>
+            <div class="weather-forecast-item">
+                <div class="day"></div>
+                <img src="" alt="weather icon" class="icon">
+            <div class="temp"></div>
+            <div class="temp"></div>
+            </div>
+            <div class="weather-forecast-item">
+                <div class="day"></div>
+                <img src="" alt="weather icon" class="icon">
+            <div class="temp"></div>
+            <div class="temp"></div>
+            </div>
+            <div class="weather-forecast-item">
+                <div class="day"></div>
+                <img src="" alt="weather icon" class="icon">
+            <div class="temp"></div>
+            <div class="temp"></div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js" integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./script.js" defer></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> -->
+</body>
+</html>
